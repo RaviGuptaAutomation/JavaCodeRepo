@@ -58,7 +58,14 @@ public class Post {
 	public void setPostedOn(Date postedOn) {
 		this.postedOn = postedOn;
 	}
+	@Override
+	public String toString() {
+		return "Post [id=" + id + ", title=" + title + ", body=" + body + ", postedOn=" + postedOn + ", author="
+				+ author + "]";
+	}
 
+	
+	
 	
 
 }
